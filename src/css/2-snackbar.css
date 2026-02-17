@@ -1,0 +1,87 @@
+.form {
+  max-width: 360px;
+}
+.inp-label {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 8px;
+
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+
+  font-family: 'Montserrat', sans-serif;
+}
+
+.input-snackbar {
+  outline: none;
+  box-sizing: border-box;
+  resize: none;
+
+  border: 1px solid #808080;
+  border-radius: 4px;
+  width: 360px;
+  height: 40px;
+  margin: 0, auto;
+  margin-bottom: 8px;
+  padding: 8px 16px;
+}
+.input-snackbar:hover {
+  border-color: #000;
+}
+.input-snackbar:focus {
+  border-color: #4e75ff;
+}
+.chek {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #2e2f42;
+  padding-top: 24px;
+  padding-bottom: 8px;
+  padding-left: 48px;
+  font-family: 'Montserrat', sans-serif;
+}
+.legend {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #2e2f42;
+  margin-top: 8px;
+
+  stroke-width: 1px;
+  stroke: #808080;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.check-btn {
+  margin-right: 8px;
+}
+
+.snackbar-btn {
+  border-radius: 8px;
+  padding-block: 8px;
+  padding-inline: 16px;
+  width: 360px;
+  height: 40px;
+  background-color: #4e75ff;
+  margin-top: 24px;
+
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  color: #fff;
+  border-color: transparent;
+
+  font-family: 'Montserrat', sans-serif;
+
+  transition: background-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
+}
+.snackbar-btn:hover {
+  background-color: #6c8cff;
+}
